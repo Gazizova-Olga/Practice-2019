@@ -1,32 +1,32 @@
->
-Тяжело в учении - легко в бою.
-> - Суворов А.В.
 
-## Здравcтвуйте!
+ Привет мир!
 
 
-### Видимо, Вы зашли на мою страницу в поисках репетитора по таким непростым предметам как математика и химия!:sparkles:
+ Я узнал про markdown.
+
+# Markdown
 
 
-:star2:**И Вы зашли по адресу!**:star2: 
-
-В своей работе я применяю уже неоднократно зарекомендовавшие себя материалы, размещенные на сайтах:
-1. www.alexlarin.net (*математика*)
-1. https://chem-ege.sdamgia.ru/ (*химия и математика*).
-
-В настоящий момент мое рабочее расписание выглядит так.
-
-Время | Вторник | Суббота | Воскресенье 
------ | ------- | ------- | -----------
-15:00 | занято | свободно | занято
-17:00 | свободно | свободно | занято
+Вы тоже можете узнать про markdown из статей:
+1. https://ru.wikipedia.org/wiki/Markdown
+1. https://en.wikipedia.org/wiki/Markdown
+1. https://guides.github.com/features/mastering-markdown/
 
 
-##### Вы можете обратиться с заявкой на любое свободно время по e-mail: gazizova@mail.ru.
+## Markdown в деталях
 
+Filename extensions | .md, .markdown[1][2] 
+------------------- | -------------------- 
+Internet media type  | text/markdown[2] 
+Uniform Type Identifier (UTI) | net.daringfireball.markdown 
+Developed by | John Gruber
+Initial release | March 19, 2004 (14 years ago)[3][4]
+Latest release | 1.0.1 (December 17, 2004 (13 years ago)[5])
+Type of format | Markup language
+Extended to | MultiMarkdown, Markdown Extra, CommonMark[6]
+Open format? | yes[7]
+Website | http://daringfireball.net/projects/markdown
 
-**_Надеюсь, наше общение будет продуктивным!_** :pray:
+## Реальный пример 
 
-
-
-
+https://github.com/Microsoft/TypeScript/blob/master/README.md 
