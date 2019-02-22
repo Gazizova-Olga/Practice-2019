@@ -279,14 +279,15 @@ body
 
 .left_column_layout
 {
-    width:635px;
+    width:654px;
 }
 .left_column_layout .left_block
 {
     background-color: white;
     color: #33495F;
     border-radius: 3px;
-    margin:33px 20px 15px 0px;
+    margin:34px 20px 15px 0px;
+    padding: 0px;
 }
 
 .left_column_layout h2
@@ -298,8 +299,7 @@ body
   margin-left: 24px;
   font-size: 25px;
   display: inline;
-  line-height: 88px;
-  letter-spacing: 0.15px;
+  letter-spacing: 0.1px;
 }
 
 .left_column_layout .left_block .work_place
@@ -311,8 +311,8 @@ body
   margin-left: 9px;
   font-size: 18px;
   display: inline;
-  line-height: 88px;
-  letter-spacing: -0.1px;
+  line-height: 90px;
+  letter-spacing: -0.08px;
 }
 
 .left_column_layout h3
@@ -334,11 +334,108 @@ body
   list-style-image: url('../icons/marker-on-white.png');
   font-size: 16px;
   letter-spacing: 0.1px;
-  margin: -1px 10px 0px 10px;
+  margin: -3px 10px 0px 10px;
+  vertical-align: middle;
+  
 }
 
 .left_column_layout .left_block ul li
 {
     height: 34px;
     padding-left: 5px;
+    text-align: justify;
+}
+
+
+.left_column_layout .left_block .post_info
+{
+    color: #9EA7B4;
+    font-family: 'Lato', sans-serif;
+    display: inline-block;
+    font-size: 16px;
+    margin: 31px 0px 18px 23px;
+    letter-spacing: -0.2px;
+}
+
+.left_column_layout .left_block .post_info .place
+{
+    float: left;
+    padding-top: 7px;
+}
+
+.left_column_layout .left_block .post_info .time_period
+{
+    float: left;
+    padding: 7px 0px 0px 54px;
+    letter-spacing: -0.3px;
+}
+
+.left_column_layout .left_block .post_info .button-blue
+{
+    background-color: #16C4EC;
+    border:0px;
+    border-radius: 3px;
+    color:white;
+    float: right;
+    font-size: 16px;
+    height: 38px;
+    letter-spacing: 0.1px;
+    margin: 0px 0px 0px 82px;
+    width: 217px;
+}
+
+.left_column_layout .left_block .post_info img
+{
+    vertical-align: middle;
+}
+
+.left_column_layout .cortix h2
+{
+    position: relative;
+    top: -3px;    
+}
+.left_column_layout .cortix .work_place
+{
+    position: relative;
+    top:-3px;
+    margin-left: 8px;
+}
+
+.left_column_layout .cortix h3
+{
+    margin: -2px 0px 0px 22px;
+}
+
+.left_column_layout  .cortix ul
+{
+    margin: -18px 10px 0px 10px;
+    letter-spacing: 0px;
+}
+
+.left_column_layout  .cortix ul li
+{
+    letter-spacing: 0.05px;
+}
+
+.left_column_layout .cortix .post_info
+{
+    margin-top: 30px;
+    padding-left: 2px;
+}
+
+.left_column_layout .cortix .post_info .time_period
+{
+    padding-left: 45px;
+}
+
+.left_column_layout .cortix .post_info .time_period span
+{
+    padding-left: 11px;
+}
+
+.left_column_layout .cortix .post_info .button-blue
+{
+    font-family: 'Signika', sans-serif;
+    margin: -2px 0px 0px 93px;
+    letter-spacing: 0.4px;
 }
