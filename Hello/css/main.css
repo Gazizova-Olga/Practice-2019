@@ -275,3 +275,70 @@ body
     margin-left: -0.5px;
     letter-spacing: 2px;
 }
+
+
+.left_column_layout
+{
+    width:635px;
+}
+.left_column_layout .left_block
+{
+    background-color: white;
+    color: #33495F;
+    border-radius: 3px;
+    margin:33px 20px 15px 0px;
+}
+
+.left_column_layout h2
+{
+  font-family: 'Signika', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #33495F;
+  margin-left: 24px;
+  font-size: 25px;
+  display: inline;
+  line-height: 88px;
+  letter-spacing: 0.15px;
+}
+
+.left_column_layout .left_block .work_place
+{
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #9EA7B4;
+  margin-left: 9px;
+  font-size: 18px;
+  display: inline;
+  line-height: 88px;
+  letter-spacing: -0.1px;
+}
+
+.left_column_layout h3
+{
+  color: #04BCA6;
+  font-family: 'Signika', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  display: block;
+  margin: 0px 0px 0px 22px;
+  position: relative;
+  top:-30px;
+}
+
+.left_column_layout .left_block ul
+{
+  font-family: 'Lato', sans-serif;
+  list-style-image: url('../icons/marker-on-white.png');
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  margin: -1px 10px 0px 10px;
+}
+
+.left_column_layout .left_block ul li
+{
+    height: 34px;
+    padding-left: 5px;
+}
