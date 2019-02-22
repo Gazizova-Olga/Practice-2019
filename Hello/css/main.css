@@ -1,0 +1,277 @@
+
+body
+{
+    margin:0;
+    width: 1511px;
+    background-color: #EAEDF1;
+}
+
+.wrapper
+{
+    margin: 81px 81px 0px 81px;
+}
+
+.clearfix::after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+.header .person
+{
+    background-color:#FFFFFF;
+    width: 432px;
+    border-radius: 1px;
+    height:295px;
+    float: left;
+}
+
+  
+.header .person .photo
+{
+    background-color: #FFFFFF;
+    margin: 34px 20px 20px 21px;
+    float:left;
+}
+
+.header .person .author_info
+{
+    float:left;
+    margin-top: 77px;
+    margin-left: 20px;
+}
+
+.header .person .author_info .name
+{
+    color: #33495F;
+    font-family: 'Signika', sans-serif;
+    font-size: 30px;
+}
+
+.header .person .author_info .city
+{
+  color: #727F8D;
+  font-family: 'Lato', sans-serif;
+  font-size: 17px;
+  margin-top: 5px;
+  margin-left: 1px;
+ font-weight: 100;
+ letter-spacing: 0.1px;
+}
+.header .person .personal_info
+{
+   width: 100%;
+   display: inline-block;
+  height: 80px;
+  padding-top:8px;
+}
+
+.header .person .personal_info .main_blocks
+{
+  width: 108px;
+  height: 100%;
+  display: inline-block;
+  color: #FFFFFF;
+  position: relative;
+  font-family: 'Lato', sans-serif;
+  font-size: 14.5px;
+}
+.header .person .personal_info span
+{
+  position: relative;
+  display: inline-block;
+  font-weight: 100;
+}
+
+.header .person .personal_info img
+{
+  display: inline-block;
+  position: relative;
+  top: 18px;
+  left: 0px;
+}
+
+
+.header .person .personal_info .age
+{
+    background-color: #16C4EC;
+}
+
+.header .person .personal_info .age .icon1
+{
+    margin-left: 44px;
+}
+.header .person .personal_info .age .span1
+{
+    top: 20px;
+    left: 29px;
+}
+
+.header .person .personal_info .nationality
+{
+    background-color: #FA5351;
+    margin-left: -4px;   
+}
+
+.header .person .personal_info .nationality .icon2
+{
+    margin-left: 44px;
+}
+.header .person .personal_info .nationality .span2
+{
+    top: 20px;
+    left: 15px;
+}
+
+.header .person .personal_info .car_license
+{
+    background-color: #10CDC1;
+    margin-left: -4px;
+}
+.header .person .personal_info .car_license .icon3
+{
+    margin-left: 44px;
+}
+.header .person .personal_info .car_license .span3
+{
+    top: 20px;
+    left: 23px;
+}
+
+.header .person .personal_info .smoking
+{
+    background-color: #33495F;
+    margin-left: -4px;
+}
+
+.header .person .personal_info .smoking .icon4
+{
+    margin-left: 44px;
+    margin-right: 35px;
+}
+.header .person .personal_info .smoking .span4
+{
+    top: 20px;
+    left: 39px;
+}
+
+.header
+{
+    display: inline-block;
+}
+
+
+.header .resume
+{
+    width:795px;
+    float:right;
+    background-color: white;
+    margin-left: 90px;
+    padding: 18px 0px 0px 30px;
+    border-radius: 3px;
+}
+
+.header .resume .column_layout
+{
+   width:410px;
+}
+
+.header .resume .column_layout h1
+{
+    color: #33495F;
+    font-family: 'Signika', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    letter-spacing: 0.25px;
+    margin-bottom: -9px;
+}
+
+.header .resume .column_layout .overall
+{
+    color: #637484;
+    float:left;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17.5px;
+    text-align: justify;
+    line-height: 31px;
+    padding-left: 3.5px;
+    padding-right: 4px;
+    letter-spacing: 0.1px;
+}
+
+.header .resume .column_layout .overall .text-blue
+{
+    color:#36CBEE;
+}
+
+.header .resume .column_layout .overall .social_media
+{
+    clear:both;
+    height: 30px;
+    margin: 20px 0px 24px -8px;
+}
+
+.header .resume .column_layout .overall .social_media img
+{
+    float: left;
+}
+
+.header .resume .column_layout .overall .social_media .s_icon2
+{ 
+    margin-left: 42px;
+}
+
+.header .resume .column_layout .overall .social_media .s_icon3
+{
+    margin-left: 46px;
+}
+
+.header .resume .column_layout .overall .social_media .s_icon4
+{
+    margin-left: 46px;
+}
+.header .resume .column_layout .overall .social_media .s_icon5
+{
+    margin-left: 43px;
+}
+.header .resume .column_layout .overall .social_media .s_icon6
+{
+    margin-left: 42px;
+}
+
+.header .resume .contacts 
+{
+    float:right;
+    margin-right: 35px;
+    width: 275px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #788695;
+}
+
+.header .resume .contacts p
+{
+  font-family: 'Signika', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.header .resume .contacts .email
+{
+  color: #33495F;
+  font-size: 23px;
+  padding-top: 2px;
+  margin-left: -2.25px;
+  letter-spacing: -0.07px;
+}
+
+.header .resume .contacts .web_site
+{
+   color:#FA5351;
+   font-size: 23px;
+    margin-top: -7px;
+    margin-left: -0.5px;
+    letter-spacing: 2px;
+}
