@@ -280,6 +280,7 @@ body
 .left_column_layout
 {
     width:654px;
+    display:inline-block;
 }
 .left_column_layout .left_block
 {
@@ -638,4 +639,213 @@ body
     position: absolute;
     top: 1554px;
     left: 720px;
+}
+
+.right_column_layout
+{
+    width:625px;
+    float: right;
+}
+
+.right_column_layout .web_work
+{
+    border-bottom: 3px dotted #DBE1E8;
+    padding-bottom: 20px;
+}
+
+.right_column_layout .right_block
+{
+    background-color: #DBE1E8;
+    border-radius: 3px;
+    margin:32px 0px 15px 0px;
+    padding-top: 29px;
+}
+
+.right_column_layout .right_block h2
+{
+  font-family: 'Signika', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #33495F;
+  margin-left: 23.5px;
+  font-size: 22px;
+  display: inline;
+  letter-spacing: 0.15px;
+}
+.right_column_layout .right_block .description
+{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #7A8698;
+    margin-left: 9px;
+    font-size: 15px;
+    display: inline;
+    letter-spacing: 0.12px;
+}
+
+.right_column_layout .right_block h3
+{
+    color: #00B9D8;
+    font-family: 'Signika', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    display: block;
+    letter-spacing: 0px;
+    margin: 3px 0px 0px 22px;
+}
+
+.right_column_layout .right_block .post_info
+{
+    color: #33495F;
+    font-family: 'Lato', sans-serif;
+    display: inline-block;
+    font-size: 12.5px;
+    font-weight: 100;
+    margin: 24px 0px 18px 20px;
+}
+
+.right_column_layout .right_block .post_info .place
+{
+    float: left;
+    padding-top: 13px;
+}
+.right_column_layout .right_block .post_info img
+{
+    vertical-align: middle;
+}
+.right_column_layout .right_block .post_info .time_period
+{
+    float: left;
+    padding: 13px 0px 0px 64px;
+}
+
+.right_column_layout .right_block .post_info .time_period span
+{
+    padding-left:4px;
+}
+
+.right_column_layout .right_block .post_info .button-green
+{
+    background-color: #10CDC1;
+    border: 0px;
+    border-radius: 3px;
+    color: white;
+    float: right;
+    font-family: 'Signika', sans-serif;
+    font-size: 15px;
+    height: 38px;
+    letter-spacing: 0.3px;
+    font-weight: 100;
+    margin: 3px 0px 0px 87px;
+    width: 217px;
+    padding-right: 11px;
+}
+
+.right_column_layout .qoqa h2
+{
+    font-size: 22.5px;
+}
+.right_column_layout .qoqa 
+{
+    padding-top: 31px;
+}
+
+.right_column_layout .qoqa .description
+{
+    letter-spacing: 0.15px;
+    margin-left: 7px;
+}
+.right_column_layout .qoqa h3
+{
+    margin-top: 1px;
+}
+
+.right_column_layout .qoqa .post_info
+{ 
+    padding-top: 5px;
+    letter-spacing: 0.05px;
+}
+
+.right_column_layout .qoqa .post_info .button-green
+{
+    margin: 1px 0px 0px 78px;
+    padding-right: 8px;
+}
+
+.right_column_layout .cefire h2
+{
+    letter-spacing: 0.4px;
+}
+
+.right_column_layout .cefire h2 span
+{
+    font-size: 22px;
+}
+
+.right_column_layout .cefire .description
+{
+    margin-left: 6px;
+}
+
+.right_column_layout .diploma h3
+{
+    color:#04BCA6;
+    margin-top: 2.5px;
+}
+
+.right_column_layout .diploma .post_info
+{
+    margin: 2px 21px 8px 21px;
+    letter-spacing: 0.05px;
+}
+
+.right_column_layout .diploma .post_info .marks
+{
+    display: inline-block;
+    position: relative;
+    left: 212px;
+    top: 12px;
+}
+
+.right_column_layout .diploma .school
+{
+    padding-top:32px;
+}
+
+.right_column_layout .diploma .school h2
+{
+    letter-spacing: 0.4px;
+}
+
+.right_column_layout .diploma .school .description
+{
+    margin-left: 6px;
+}
+
+.right_column_layout .diploma .school h3
+{
+    margin-top: 3.5px;
+}
+
+.right_column_layout .diploma .school .post_info
+{
+    margin-top: 0px;
+    margin-bottom: 13px;
+}
+
+.right_column_layout .diploma .school .post_info .time_period
+{
+    padding-left: 46px;
+}
+.right_column_layout .diploma .school .post_info .time_period span
+{
+    padding-left: 2px;
+}
+
+.right_column_layout .diploma .school .post_info .marks
+{
+    left: 213px;
+    top: 10px;
 }
