@@ -27,10 +27,15 @@ canvas {
     color: #757575;
 }
 
-#score {
+.scoreWrapper {
     float: right;
     color: white;
-    font-size: 2em;
+    font-size: 1.1em;
+}
+#score,
+#scoreManna
+{
+    display: inline;
 }
 
 .key {

@@ -1,6 +1,6 @@
 
 (function () {
-    function Sprite(url, pos, size, speed, frames, dir, once, trapIndex) {
+    function Sprite(url, pos, size, speed, frames, dir, once) {
         this.pos = pos;
         this.size = size;
         this.speed = typeof speed === 'number' ? speed : 0;
@@ -9,13 +9,23 @@
         this.url = url;
         this.dir = dir || 'horizontal';
         this.once = once;
+        this.touch = false;
     };
 
     Sprite.prototype = {
         update: function (dt) {
             this._index += this.speed * dt;
         },
+        changeAnimation: function (frames) {
+            this._index = 0;
+            this.frames = frames;
+            this.once = true;
+            this.touch = true;
+        },
 
+        getTouch: function () {
+            return this.touch;
+        },
         render: function (ctx) {
             var frame;
 
