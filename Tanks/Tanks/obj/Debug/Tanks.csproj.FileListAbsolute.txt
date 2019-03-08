@@ -1,0 +1,12 @@
+D:\Practice-2019\Tanks\bin\Debug\Tanks.exe.config
+D:\Practice-2019\Tanks\bin\Debug\Tanks.exe
+D:\Practice-2019\Tanks\bin\Debug\Tanks.pdb
+D:\Practice-2019\Tanks\obj\Debug\Tanks.csprojAssemblyReference.cache
+D:\Practice-2019\Tanks\obj\Debug\Tanks.MainForm.resources
+D:\Practice-2019\Tanks\obj\Debug\Tanks.Properties.Resources.resources
+D:\Practice-2019\Tanks\obj\Debug\Tanks.csproj.GenerateResource.cache
+D:\Practice-2019\Tanks\obj\Debug\Tanks.csproj.CoreCompileInputs.cache
+D:\Practice-2019\Tanks\obj\Debug\Tanks.exe
+D:\Practice-2019\Tanks\obj\Debug\Tanks.pdb
+D:\Practice-2019\Tanks\obj\Debug\Tanks.ConfigForm.resources
+D:\Practice-2019\Tanks\obj\Debug\Tanks.Stats.resources
