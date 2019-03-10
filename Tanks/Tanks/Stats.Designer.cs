@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Stats));
             this.ctrlStats = new System.Windows.Forms.DataGridView();
             this.Object = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.X = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -42,9 +43,10 @@
             this.Object,
             this.X,
             this.Y});
-            this.ctrlStats.Location = new System.Drawing.Point(12, 12);
+            this.ctrlStats.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ctrlStats.Location = new System.Drawing.Point(0, 0);
             this.ctrlStats.Name = "ctrlStats";
-            this.ctrlStats.Size = new System.Drawing.Size(344, 341);
+            this.ctrlStats.Size = new System.Drawing.Size(345, 386);
             this.ctrlStats.TabIndex = 0;
             // 
             // Object
@@ -69,22 +71,26 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(369, 365);
+            this.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
+            this.ClientSize = new System.Drawing.Size(345, 386);
             this.Controls.Add(this.ctrlStats);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Location = new System.Drawing.Point(900, 50);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Stats";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Stats";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Stats_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.ctrlStats)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.DataGridView ctrlStats;
         private System.Windows.Forms.DataGridViewTextBoxColumn Object;
         private System.Windows.Forms.DataGridViewTextBoxColumn X;
         private System.Windows.Forms.DataGridViewTextBoxColumn Y;
+        public System.Windows.Forms.DataGridView ctrlStats;
     }
 }

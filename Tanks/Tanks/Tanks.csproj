@@ -46,13 +46,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Apple.cs" />
     <Compile Include="Direction.cs" />
+    <Compile Include="FixedObject.cs" />
+    <Compile Include="Kolobok.cs" />
+    <Compile Include="KolobokView.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="MovingObject.cs" />
+    <Compile Include="Obj.cs" />
+    <Compile Include="PacmanController.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ConfigForm.cs">
@@ -61,12 +68,17 @@
     <Compile Include="ConfigForm.Designer.cs">
       <DependentUpon>ConfigForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Property.cs" />
+    <Compile Include="Shot.cs" />
+    <Compile Include="ShotView.cs" />
     <Compile Include="Stats.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Stats.Designer.cs">
       <DependentUpon>Stats.cs</DependentUpon>
     </Compile>
+    <Compile Include="Tank.cs" />
+    <Compile Include="TankView.cs" />
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -78,6 +90,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="ConfigForm.resx">
       <DependentUpon>ConfigForm.cs</DependentUpon>
@@ -97,6 +110,25 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\apple.png" />
+    <Content Include="Images\gameOver.png" />
+    <Content Include="Images\kolobokDown.png" />
+    <Content Include="Images\kolobokLeft.png" />
+    <Content Include="Images\kolobokRight.ico" />
+    <Content Include="Images\kolobokRight.png" />
+    <Content Include="Images\kolobokUp.png" />
+    <Content Include="Images\river.jpg" />
+    <Content Include="Images\shotDown.png" />
+    <Content Include="Images\shotLeft.png" />
+    <Content Include="Images\shotRight.png" />
+    <Content Include="Images\shotUp.png" />
+    <Content Include="Images\tankDown.png" />
+    <Content Include="Images\tankLeft.png" />
+    <Content Include="Images\tankRight.png" />
+    <Content Include="Images\tankUP.png" />
+    <Content Include="Images\wall.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

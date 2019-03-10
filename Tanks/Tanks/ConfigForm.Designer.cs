@@ -34,11 +34,11 @@
             this.ctrlTanks = new System.Windows.Forms.NumericUpDown();
             this.ctrlApples = new System.Windows.Forms.NumericUpDown();
             this.label3 = new System.Windows.Forms.Label();
-            this.tbSpeed = new System.Windows.Forms.TrackBar();
+            this.ctrlSpeed = new System.Windows.Forms.TrackBar();
             this.btnStart = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.ctrlTanks)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ctrlApples)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tbSpeed)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ctrlSpeed)).BeginInit();
             this.SuspendLayout();
             // 
             // lblTanks
@@ -95,33 +95,35 @@
             this.label3.TabIndex = 4;
             this.label3.Text = "Speed";
             // 
-            // tbSpeed
+            // ctrlSpeed
             // 
-            this.tbSpeed.BackColor = System.Drawing.SystemColors.Control;
-            this.tbSpeed.Location = new System.Drawing.Point(221, 156);
-            this.tbSpeed.Name = "tbSpeed";
-            this.tbSpeed.Size = new System.Drawing.Size(120, 45);
-            this.tbSpeed.SmallChange = 5;
-            this.tbSpeed.TabIndex = 5;
-            this.tbSpeed.TickFrequency = 5;
-            this.tbSpeed.Value = 5;
+            this.ctrlSpeed.BackColor = System.Drawing.SystemColors.Control;
+            this.ctrlSpeed.Location = new System.Drawing.Point(221, 156);
+            this.ctrlSpeed.Name = "ctrlSpeed";
+            this.ctrlSpeed.Size = new System.Drawing.Size(120, 45);
+            this.ctrlSpeed.SmallChange = 5;
+            this.ctrlSpeed.TabIndex = 5;
+            this.ctrlSpeed.TickFrequency = 5;
+            this.ctrlSpeed.Value = 5;
             // 
             // btnStart
             // 
+            this.btnStart.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.btnStart.Location = new System.Drawing.Point(113, 234);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(158, 56);
             this.btnStart.TabIndex = 6;
             this.btnStart.Text = "OK";
             this.btnStart.UseVisualStyleBackColor = true;
+            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
-            // StartForm
+            // ConfigForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(377, 324);
             this.Controls.Add(this.btnStart);
-            this.Controls.Add(this.tbSpeed);
+            this.Controls.Add(this.ctrlSpeed);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.ctrlApples);
             this.Controls.Add(this.ctrlTanks);
@@ -131,12 +133,14 @@
             this.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.Name = "StartForm";
+            this.Margin = new System.Windows.Forms.Padding(6);
+            this.Name = "ConfigForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Tanks: customize";
+            this.Load += new System.EventHandler(this.ConfigForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ctrlTanks)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ctrlApples)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tbSpeed)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ctrlSpeed)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -149,7 +153,7 @@
         private System.Windows.Forms.NumericUpDown ctrlTanks;
         private System.Windows.Forms.NumericUpDown ctrlApples;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TrackBar tbSpeed;
+        private System.Windows.Forms.TrackBar ctrlSpeed;
         private System.Windows.Forms.Button btnStart;
     }
 }

@@ -16,5 +16,10 @@ namespace Tanks
         {
             InitializeComponent();
         }
+
+        private void Stats_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            this.Dispose();
+        }
     }
 }

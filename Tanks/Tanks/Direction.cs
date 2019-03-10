@@ -3,9 +3,9 @@ namespace Tanks
 {
     enum Direction
     {
-        UP,
-        DOWN,
+        RIGHT,
         LEFT,
-        RIGHT
+        UP,
+        DOWN
     }
 }
